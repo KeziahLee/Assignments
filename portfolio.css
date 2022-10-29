@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 200, 200);
+    font-family: cursive;
+    font-size: 20px;}
+  
+    .nav {
+    background-color: #6f329a;
+    margin: none;
+    padding: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;}
+
+    .nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;}
+
+    a:hover{
+      background-color: purple;}
+
+    .active{background-color: rgb(203, 86, 183);}
+      
+  
+       .home { position: static;
+         text-align: center;
+         color:  black;}
+
+         .text{
+          position: absolute;
+          bottom: 80px;
+          left: 20px;
+         
+         }
+    
+
+        .section {margin-top: 80px;}
+
+        .button{
+          
+          text-align: center;
+          text-decoration: none;
+          padding: 15px 32px;
+          color: white;
+          font-size: 20px;
+          background-color: purple;
+          display: inline-block;
+          margin-left: 350px;
+          position: absolute;
+          right: 500px;
+        }
+
+        .thebutton{
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+        }
+
+        .aboutme {
+          text-align: center;
+        }
+
+        hr{background-color: black;
+          color: black;
+          }
+
+        h2{text-align:center ;
+          margin-top: 30px;
+          margin-left: 350px; 
+          margin-right: 300px;
+        }
+
+        form{
+          border-radius: 5px;
+          background-color: whitesmoke;
+          padding: 30px;
+          font-size: 20px;  
+          margin-left: 500px; 
+          margin-right: 300px;
+          margin-top: 0px;
+          text-align: justify;
+         }
+         
+         input[type=text],input[type=email]{
+          width: 300px;
+          height: 35px;
+          border: none;
+          border-radius: 4px;
+          background-color: rgba(203, 86, 183,0.65);
+         }
+         
+          input[type=submit]{
+          width: 300px;
+          height: 35px;
+          border: none;
+          border-radius: 4px;
+          background-color: rgba(203, 86, 183,0.65);
+          font-weight: bold;
+         }
+
+         input[type=submit]:hover{background-color:purple;}
+
+         textarea{
+          width: 300px;
+          height: 80px;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          border: none;
+          border-radius: 4px;
+          background-color: rgba(203, 86, 183,0.65);
+        }
+
+        .projects {text-align: justify;
+          height: 300px;
+          width: 700px;
+          padding: 5px 15px 20px;
+          margin-left: 200px;
+          border: solid purple 10px;
+         }
+
+        footer {position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 55px;
+          background-color: rgb(111, 50, 154);
+          color: whitesmoke;
+          text-align: center;
+          font-weight: bold;}
+    
+
